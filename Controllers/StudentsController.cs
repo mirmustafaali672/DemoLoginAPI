@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,7 +15,7 @@ namespace DemoLoginAPI.Students
             _iStudentAppService = iStudentAppService;
         }
         [HttpGet]
-        [Route("GetStudents")]
+        [Route("GetStudents"), Authorize]
         public async Task<ActionResult<List<StudentsEntity>>> GetStudents()
         {
             var Students = await _iStudentAppService.GetStudents();
