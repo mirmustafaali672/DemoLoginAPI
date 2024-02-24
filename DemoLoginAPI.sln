@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLoginAPI", "DemoLoginAPI.csproj", "{27FB2040-6DBA-4543-91A4-9561F7A0375F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27FB2040-6DBA-4543-91A4-9561F7A0375F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FB2040-6DBA-4543-91A4-9561F7A0375F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FB2040-6DBA-4543-91A4-9561F7A0375F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FB2040-6DBA-4543-91A4-9561F7A0375F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5F14940-41BE-4166-8AD0-DFA477F70C0E}
+	EndGlobalSection
+EndGlobal
