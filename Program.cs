@@ -29,7 +29,9 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 builder.Services.AddIdentityApiEndpoints<IdentityUser>().AddEntityFrameworkStores<DataContext>();
 builder.Services.AddCors( options =>
 {
-    options.AddPolicy("MyCorsPolicy", builder => builder.WithOrigins("*"));
+    options.AddPolicy("MyCorsPolicy", builder => builder.WithOrigins("*")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod());
 });
 var app = builder.Build();
 
